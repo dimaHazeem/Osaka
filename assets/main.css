@@ -3,6 +3,9 @@
     --mainColor : #ff206e;
     --secondary : #fff;
 }
+.text__main{
+    color: var(--mainColor);
+}
 .navbar-brand{
     color: var(--secondary);
 }
