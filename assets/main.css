@@ -1,0 +1,16 @@
+:root{
+    --mainFont :  "Open Sans", sans-serif;
+    --mainColor : #ff206e;
+    --secondary : #fff;
+}
+.navbar-brand{
+    color: var(--secondary);
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: .875rem;
+    color: var(--secondary);
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    font-size: .875rem;
+    color: var(--mainColor);
+}
