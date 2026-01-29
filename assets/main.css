@@ -33,7 +33,6 @@ body{
     font-size: 5rem;
     position: absolute;
 }
-
 .protfolio .nav-tabs .nav-item.show .nav-link, 
 .protfolio .nav-tabs .nav-link.active {
     color: var(--mainColor);
@@ -46,4 +45,25 @@ body{
 }
 .protfolio .nav-tabs {
     border-bottom: none;
+}
+.Testimonials .img-Testimonial{
+    margin-top: -3.5rem;
+    margin-left: auto;
+    margin-bottom: 1.5rem;
+    margin-right: auto;
+    width: 85px;
+    border-radius: 50%;
+    position: relative;
+}
+.clients {
+    margin-top: 3.5rem;
+    position: relative;
+    border: 2px solid #f1f1f1;
+}
+.carousel-indicators .dot{
+    background-color: black;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    margin: 5px;
 }
