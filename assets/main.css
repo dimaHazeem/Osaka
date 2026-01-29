@@ -3,6 +3,9 @@
     --mainColor : #ff206e;
     --secondary : #fff;
 }
+body{
+    font-family: var(--mainFont);
+}
 .text__main{
     color: var(--mainColor);
 }
@@ -20,4 +23,12 @@
 .hero{
     background-image: url(./../assets/images/bg.jpg);
     background-size: cover;
+}
+.about{
+    background-image: url(./images/light_dot.jpg);
+}
+.fixed{
+    color: #f1f1f1;
+    font-size: 5rem;
+    position: absolute;
 }
