@@ -24,11 +24,26 @@ body{
     background-image: url(./../assets/images/bg.jpg);
     background-size: cover;
 }
-.about{
+.about,
+.protfolio{
     background-image: url(./images/light_dot.jpg);
 }
 .fixed{
     color: #f1f1f1;
     font-size: 5rem;
     position: absolute;
+}
+
+.protfolio .nav-tabs .nav-item.show .nav-link, 
+.protfolio .nav-tabs .nav-link.active {
+    color: var(--mainColor);
+}
+.protfolio .nav-link {
+    color: black;
+}
+.protfolio .nav-tabs .nav-link{
+    border: none;
+}
+.protfolio .nav-tabs {
+    border-bottom: none;
 }
